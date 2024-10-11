@@ -1,0 +1,26 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "clientId": "YOUR_CLIENT_ID_FOUND_IN_APPFORM",
+  "guildId": "YOUR_SERVER_ID",
+  "welcomeChannelId": "WELCOME_CHANNEL_ID",
+  "roleChannelId": "ROLE_CHANNEL_ID",
+  "reportAdminsChannelId": "REPORT_CHANNEL_ID",
+  "customEmojis": {
+    "emoji0": {
+      "name": "emoji0",
+      "id": "EMOJI0_ID"
+    },
+    "emoji1": {
+      "name": "emoji1",
+      "id": "EMOJI1_ID"
+    },
+    "emoji2": {
+      "name": "emoji2",
+      "id": "EMOJI2_ID"
+    },
+    "emoji3": {
+      "name": "emoji3",
+      "id": "EMOJI3_ID"
+    }
+  }
+}
