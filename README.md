@@ -6,7 +6,12 @@ My bot commands include:
   * roles must already be premade in the server
 * welcome
   * sends a welcome message to new users that join the server
-* 
+* /report
+  * builds and sends a report to a certain channel for the admins/mods of the server
+* /greet
+  * when called, greets the user that calls the command
+* s!ping
+  * when user types in `s!ping` bot replys to user saying "Pong!"
 
 ## Steps:
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and at the top right click the "New Application" button. Give your application a name, check the terms of service, and enter the application dashboard
