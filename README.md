@@ -19,4 +19,4 @@ My bot commands include:
      * [Discord.js Docs](https://discord.js.org/docs/packages/discord.js/14.16.3)
      * [Discord.js Guide](https://discordjs.guide/#before-you-begin)
 
-You may use my code or reference it to create your own custom commands. 
+You may use my code or reference it to create your own custom commands. Additionally, turn on developer mode in your Discord Settings to get guild id, channel ids, and others. And to get the id of a custom emoji (which you will need if you want reactionRoles.js to work with custom emojis) use ```\:YOUR_EMOJI_NAME:``` 
