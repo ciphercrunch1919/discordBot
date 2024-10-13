@@ -203,6 +203,7 @@ module.exports = {
             await batchUpdateRoles(guild, storedMessageData, currentReactions, roleGroup);
 
             // Check if message content needs to be updated
+            // This is if the case you had custom emojis for your reactions
             const roleMessageContent = Object.entries(roleGroup.emojiRoleMap)
               .map(([emoji, roleName]) => {
                 const isCustomEmoji = customEmojis[roleName];
@@ -212,7 +213,15 @@ module.exports = {
                   return `${emoji} - ${roleName}`;
                 }
               })
-              .join('\n');
+              .join('\n'); 
+            /*
+              If you do not have any custom emojis for your reactions, you would use this code instead of the above code: 
+              const roleMessageContent = Object.entries(roleGroup.emojiRoleMap)
+                .map(([emoji, roleName]) => `${emoji} - ${roleName}`)
+                .join('\n');
+
+              Additionally, you would need to remove any mention of 'customEmojis'
+            */
 
             const embed = new EmbedBuilder()
               .setTitle(roleGroup.title)
