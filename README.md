@@ -27,3 +27,16 @@ My bot commands include:
      * [Discord.js Guide](https://discordjs.guide/#before-you-begin)
 
 You may use my code or reference it to create your own custom commands. Additionally, turn on developer mode in your Discord Settings to get guild id, channel ids, and others. And to get the id of a custom emoji (which you will need if you want reactionRoles.js to work with custom emojis) use ```\:YOUR_EMOJI_NAME:``` 
+
+## Here are images of a working example of this discord bot code
+### Meet Max Bot:
+* Max Bot is a reaction and reporting bot for my private Valorant Server
+* He does all commands listed above:
+   * Reaction Roles:
+     * <img width="410" alt="Reaction Roles command" src="https://github.com/user-attachments/assets/1e6dfbf2-de80-407e-abd5-60bd5ef9e2d2" />
+
+   * Welcome:
+     * <img width="610" alt="welcome command" src="https://github.com/user-attachments/assets/4ae5ca2c-d6d4-411a-b493-496b0b29eaed" />
+
+   * /report:
+     * <img width="455" alt="Reporting command" src="https://github.com/user-attachments/assets/19a8f255-1f0b-4bcf-b222-ad37a15208a5" />
